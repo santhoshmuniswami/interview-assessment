@@ -39,7 +39,7 @@ def download_s3_object():
     ojb_name=input("Enter the file name to download: ")
     try:
         s3.Bucket(bucket_name).download_file(ojb_name,"../downloads/"+ojb_name)
-        print("Downloaded "+ojb_name+" file in the src directory...")
+        print("Downloaded "+ojb_name+" file...")
         return ojb_name
     except:
         print("Error while downloading object. Please check the bucket name and please also verify the aws credentials.")
