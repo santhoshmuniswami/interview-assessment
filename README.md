@@ -42,7 +42,7 @@ Enter the file name to download: image_name
 
 #### Sample output:
 ```
-Downloaded image_name file in the src directory...
+Downloaded image_name file...
 Pulling docker image:  postgres:13
 <Image: 'postgres:13'>
 Downloaded the image postgres:13 . Please use `docker images` to list the images
