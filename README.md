@@ -14,7 +14,7 @@ To run this script, following are the pre-requisites and assumptions ,
 - You need to have an AWS account created and create a IAM user with programmatic access. The user should have AWS S3 readonly/fullaccess policy attached
 - Create a S3 Bucket and upload a file which contains just an image name. As a sample, you can find there is file `image_name` in this repo. While running the script, you need to provide this as an input.
 
-- You need to install AWS CLI and assuming that you have done setup of AWS CLI for configuration of credentials. Please configure access key and secret access key using `aws configure` if it is not done.
+- You need to install AWS CLI and assuming that you have done setup of AWS CLI for configuration of credentials. Please configure access key and secret access key using `aws configure` if it is not done (Refer: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
 
 - Setup Python 3.x in your local machine to run this script. I have used python 3.9 for development
 
